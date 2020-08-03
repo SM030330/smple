@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  color:#777777;
+}
+h1,p {
+  margin:0;
+  padding:0;
+}
+header h1 {
+  font-size: 36px;
+  color: black;
+}
+header p {
+  font-size: 18px;
+}
+.top-logo{
+  float: left;
+  position:absolute;
+  bottom:0;
+}
+.top-right{
+  float:left;
+  position:absolute;
+  bottom:0;
+  right: 20%;
+  font-size:17px;
+}
+header ol {
+  list-style: none;
+}
+header li {
+  float: left;
+  padding-right: 25px;
+
+}
+
+.container {
+  width: 1060px;
+  margin:0  auto;
+
+}
+header .container {
+  height: 180px;
+  position:relative;
+  margin-bottom: 80px;
+}
+.serch-icon {
+  float:right;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+.top-wrapper img{
+  width: 100%;
+}
+.top-wrapper p {
+  display: inline-block;
+  padding-top:100px;
+  font-size: 27px;
+  line-height: 49px;
+  padding-bottom:120px;
+}
+.his-year {
+  display: inline-block;
+  line-height: 35px;
+  font-size: 17px;
+
+}
+.his-text {
+  text-align:left;
+  line-height: 30px;
+  width:70%;
+}
+.year-box {
+  float:left;
+  width:30%;
+}
+.his-title {
+  display:inline-block;
+  font-size:24px;
+  color:black;
+  margin-bottom:33px;
+}
+.history-block {
+  display: flex;
+  padding-top:80px;
+}
+.history .container {
+  padding-bottom:220px;
+  margin-bottom:70px;
+  border-bottom: solid 1px #e6e6e6;
+}
+/* プロフィール欄 */
+.prof-left img{
+  width:100px;
+  border-radius:50%;
+  float:left;
+  position:absolute;
+}
+.name-icons {
+  position:relative;
+  left:50%;
+  top:28px;
+}
+.prof-top{
+  padding-bottom: 10px;
+}
+.prof-left h3 {
+  margin :0;
+  padding: 0 0 1.7px 0;
+}
+.prof-left p {
+  line-height:30px;
+  font-size:93.79%;
+  position:relative;
+  top:55px;
+}
+.prof-left {
+  width:30%;
+  padding-right: 70px;
+}
+
+.prof h4 {
+  padding-bottom:20px;
+  color:#333333;
+  font-size:14px;
+  margin: 0;
+}
+.prof a {
+  font-size:17px;
+  line-height:40px;
+  border-bottom: solid 2px #e6e6e6;
+  margin-bottom: 20px;
+}
+.prof-list p {
+  font-size:93.8%;
+}
+ ol {
+  list-style:none;
+  margin:0;
+  padding: 0;
+}
+.prof > div {
+  display: flex;
+  padding-bottom: 70px;
+  border-bottom: solid 2px #e6e6e6;
+}
+.prof-2-left ,.prof-list , .prof-cate{
+  width:25%;
+}
+.prof-2-left {
+  padding-right: 70px;
+}
+.footer-container {
+  margin: 100px auto ;
+  text-align:center;
+
+}
+.footer-left {
+  float:left;
+  font-size: 23px;
+  letter-spacing: 10px;
+}
+.footer-right  span{
+ color: black;
+ opacity: 0.7;
+}
